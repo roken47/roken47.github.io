@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  background-color: rgb(52, 61, 82);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: grid;
+  /* grid-template-columns: 0.5fr 1fr auto 1fr 0.5fr; */
+  margin: 24px 48px;
+  line-height: 1.35;
+}
+/* Child 1 of Body */
+header {
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-gap: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Children of Main */
+section {
+  justify-self: center;
+}
