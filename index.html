@@ -10,7 +10,7 @@
     <!-- GIMP Your own Favicon -->
   </head>
   <body>
-    <header>
+    <!-- <header>
       <h1>Austin de Boer's Web-Dev Portfolio</h1>
       <nav class="top-menu" id="navProjectsLinked">
         <a href="./index.html">Home</a>
@@ -24,9 +24,33 @@
           >Dice Roller</a
         >
       </nav>
-    </header>
+    </header> -->
+<header>
+  <h1 class="logo">Logo</h1>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="./aboutme.html">About</a>
+      </li>
+      <li>
+        <a href="./projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <label for="menu-toggle" class="menu-toggle-label">
+    <span>X</span>
+  </label>
+</header>
 
     <main>
+      <div class="backsplash">
       <section class="intro">
         <p>
           Hi, welcome! Please browse my creations here from
@@ -68,6 +92,7 @@
       <section class="bottom-menu">
         <nav><a href="#top">Go to Top</a></nav>
       </section>
+    </div>
     </main>
     <footer><p>Thank You for your time!</p></footer>
     <script src="./scripts/main.js"></script>
