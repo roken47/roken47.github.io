@@ -10,88 +10,95 @@
     <!-- GIMP Your own Favicon -->
   </head>
   <body>
-    <!-- <header>
-      <h1>Austin de Boer's Web-Dev Portfolio</h1>
-      <nav class="top-menu" id="navProjectsLinked">
-        <a href="./index.html">Home</a>
-        <a href="./aboutme.html">About Me</a>
-        <a href="./projects.html">School Projects</a>
-        <a href="./contact.html">Contact Me</a>
-        <a
-          href="https://austindeboer.dev/assessment-dice-roller/"
-          target="_blank"
-          alt="week10-project"
-          >Dice Roller</a
-        >
+    <header>
+      <h1 class="logo">Logo</h1>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="./aboutme.html">About</a>
+          </li>
+          <li>
+            <a href="https://github.com/roken47" target="_blank">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </nav>
-    </header> -->
-<header>
-  <h1 class="logo">Logo</h1>
-  <input type="checkbox" id="menu-toggle" class="menu-toggle">
-  <nav>
-    <ul>
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        <a href="./aboutme.html">About</a>
-      </li>
-      <li>
-        <a href="./projects.html">Projects</a>
-      </li>
-      <li>
-        <a href="./contact.html">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <label for="menu-toggle" class="menu-toggle-label">
-    <span></span>
-  </label>
-</header>
+      <label for="menu-toggle" class="menu-toggle-label">
+        <span></span>
+      </label>
+    </header>
 
     <main>
       <div class="backsplash">
-      <section class="intro">
-        <p>
-          Hi, welcome! Please browse my school creations here from
-          <a href="https://github.com/roken47" target="_blank">GitHub</a>.
-        </p>
-        <p>
-          I am a front-end developer passionate about creating efficient user experiences. During the first decade of my career, I have learned to effectively communicate with a variety of customers and manage tight deadlines. My passion for gaming and troubleshooting technical issues started in high school, where I created forums for gamers using BBcode, HTML, and some CSS. During my time at Amazon, I began to pivot from viewing coding as a hobby to a viewing it as a future career. I discovered Kenzie Academy and continued learning front-end web development while solving family IT issues. I am excited to bring my curiosity, solutions, and software engineering skills to an equally passionate company.
-        </p>
-      </section>
-      <section class="projects" id="samples">
-        <h1>School Projects</h1>
-        <div id="sample-1">
-          Dice Roller<br /><a href="http://austindeboer.dev/assessment-dice-roller/"><img src="https://images.unsplash.com/photo-1578377375762-cbcc98d68af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" width=400 height=400/></a> 
-        </div>
-        <div id="sample-2">
-          Sample 2<br /><img src="https://source.unsplash.com/random/201x200" />
-        </div>
-        <div id="sample-3">
-          Sample 3<br /><img src="https://source.unsplash.com/random/202x200" />
-        </div>
-      </section>
-      <section class="contact">
-        <h1>Contact me</h1>
-        <form class="contact-form">
-          <input type="text" id="contact-name" placeholder="Name" />
-          <input type="text" id="contact-email" placeholder="E-mail" />
-          <input type="text" id="contact-subject" placeholder="Subject" />
-          <textarea
-            name=""
-            id="contact-message"
-            cols="30"
-            rows="10"
-            placeholder="Message"
-          ></textarea>
-          <button type="submit" class="button" id="contact-submit">Send</button>
-        </form>
-      </section>
-      <section class="bottom-menu">
-        <nav><a href="#top">Go to Top</a></nav>
-      </section>
-    </div>
+        <section class="intro">
+          <p>
+            Hi, welcome! Please browse my school creations here from
+            <a href="https://github.com/roken47" target="_blank">GitHub</a>.
+          </p>
+          <p>
+            I am a front-end developer passionate about creating efficient user
+            experiences. During the first decade of my career, I have learned to
+            effectively communicate with a variety of customers and manage tight
+            deadlines. My passion for gaming and troubleshooting technical
+            issues started in high school, where I created forums for gamers
+            using BBcode, HTML, and some CSS. During my time at Amazon, I began
+            to pivot from viewing coding as a hobby to a viewing it as a future
+            career. I discovered Kenzie Academy and continued learning front-end
+            web development while solving family IT issues. I am excited to
+            bring my curiosity, solutions, and software engineering skills to an
+            equally passionate company.
+          </p>
+        </section>
+        <section class="projects" id="samples">
+          <h1>School Projects</h1>
+          <div id="sample-1">
+            Dice Roller<br /><a
+              href="http://austindeboer.dev/assessment-dice-roller/"
+              ><img
+                src="https://images.unsplash.com/photo-1578377375762-cbcc98d68af0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                width="400"
+                height="400"
+            /></a>
+          </div>
+          <div id="sample-2">
+            Sample 2-placeholder<br /><img
+              src="https://source.unsplash.com/random/201x200"
+            />
+          </div>
+          <div id="sample-3">
+            Sample 3-placeholder<br /><img
+              src="https://source.unsplash.com/random/202x200"
+            />
+          </div>
+        </section>
+        <section class="contact">
+          <a id="contact"><h1>Contact me</h1></a>
+          <form class="contact-form">
+            <input type="text" id="contact-name" placeholder="Name" />
+            <input type="text" id="contact-email" placeholder="E-mail" />
+            <input type="text" id="contact-subject" placeholder="Subject" />
+            <textarea
+              name=""
+              id="contact-message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" class="button" id="contact-submit">
+              Send
+            </button>
+          </form>
+        </section>
+        <section class="bottom-menu">
+          <nav><a href="#top">Go to Top</a></nav>
+        </section>
+      </div>
     </main>
     <footer><p>Thank You for your time!</p></footer>
     <script src="./scripts/main.js"></script>
